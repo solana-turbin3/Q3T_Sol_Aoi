@@ -1,0 +1,17 @@
+[package]
+name = "escrow"
+version = "0.1.0"
+edition = "2021"
+
+[features]
+no-entrypoint = []
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "escrow"
+
+[dependencies]
+arrayref = { workspace = true }
+solana-program = { workspace = true }
+spl-token = { workspace = true }
+thiserror = { workspace = true }

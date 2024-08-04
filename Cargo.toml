@@ -1,6 +1,12 @@
-[package]
-name = "q3t_sol_aoikurokawa"
-version = "0.1.0"
-edition = "2021"
+[workspace]
+members = [
+    "escrow"
+]
 
-[dependencies]
+resolver = "2"
+
+[workspace.dependencies]
+arrayref = "0.3.8"
+solana-program = "2.0.0"
+spl-token = { version = "6.0.0", features = ["no-entrypoint"] }
+thiserror = "1.0.63"
