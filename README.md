@@ -1,8 +1,6 @@
 # Solana starter
 
-## Tips
+## Projects
 
-### spl_mint
-
-#### getOrCreateAssociatedTokenAccount
-- When `allowOwnerOffCurve` is true, the owner of an associated token account is PDA.
+### Anchor vault
+- anchor-vault
